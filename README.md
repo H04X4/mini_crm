@@ -2,7 +2,7 @@
 
 Микросервис для автоматического распределения обращений клиентов между операторами с учётом весовых коэффициентов и лимитов нагрузки.
 
-![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)
+![Python](https://img.shields.io/badge/Python-3.13+-blue.svg)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.109+-green.svg)
 ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-2.0+-red.svg)
 
@@ -173,3 +173,4 @@ curl -X POST http://localhost:8000/sources \
     "description": "Основной Telegram бот"
   }'
 ```
+
